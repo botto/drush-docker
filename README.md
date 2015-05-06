@@ -31,4 +31,5 @@ docker run drush/drush
 docker run drush/drush help
 docker run drush/drush --version
 docker run drush/drush status
+docker run -v $(pwd):/app dl drupal
 ```
